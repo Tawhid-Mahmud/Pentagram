@@ -38,7 +38,8 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
  
 - TO RUN THE PROJECT
       - RUN THE model/main.py seperately, this is the back end of the web app
-      - "modal deploy main.py", this will deploy the back end to Modal
+      
+      modal deploy main.py 
   
 
 
