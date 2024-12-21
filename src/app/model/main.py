@@ -70,8 +70,8 @@ class Model:
     secrets=[modal.Secret.from_name("API_KEY")]
 )
 def keep_alive():
-    health_check_url = "https://tawhid-mahmud42--sd-demo-model-health-check.modal.run"
-    generate_url = "https://tawhid-mahmud42--sd-demo-model-generate-image.modal.run"
+    health_check_url = "ADD YOUR OWN END POINT AFTER DEPLOYING"
+    generate_url = "ADD YOUR OWN END POINT AFTER DEPLOYING"
 
     health_response = requests.get(health_check_url)
     print(f"Health check at: {health_response.json()['Timestamp']}")
